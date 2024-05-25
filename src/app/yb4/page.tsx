@@ -22,7 +22,14 @@ export default function YB4() {
 				{columns === 2 && <GridFour size={32} />}
 				{columns === 4 && <GridNine size={32} />}
 			</button>
-			<div className={`grid grid-cols-${columns} gap-4 pb-8`}>
+			<div
+				className={
+					columns === 2
+						? `grid grid-cols-2 gap-4 pb-8`
+						: columns === 4
+						? `grid grid-cols-4 gap-4 pb-8`
+						: `grid grid-cols-1 gap-4 pb-8`
+				}>
 				<Profiles />
 			</div>
 		</div>

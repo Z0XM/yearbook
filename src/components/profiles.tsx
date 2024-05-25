@@ -1,11 +1,11 @@
-import Link from 'next/link';
+import a from 'next/link';
 import Image from 'next/image';
 
 export default function Profiles() {
 	const profileScale = 0.75;
 	return (
 		<>
-			<Link
+			<a
 				href={
 					'https://docs.google.com/forms/d/e/1FAIpQLScD2q-1HPJ9CfoO535nFhcmS5VS1prYbaMOPTsQSOtPLwPMXA/viewform?usp=sf_link'
 				}>
@@ -16,8 +16,8 @@ export default function Profiles() {
 					height={324 * profileScale}
 					alt='Mukul'
 				/>
-			</Link>
-			<Link
+			</a>
+			<a
 				href={
 					'https://docs.google.com/forms/d/e/1FAIpQLSdGUT_dOMJejTtEMyW6TZEx7vPQr8UEnt0Pg-LBbZoThRRIAw/viewform?usp=sf_link'
 				}>
@@ -28,8 +28,8 @@ export default function Profiles() {
 					height={324 * profileScale}
 					alt='Imtiyaz'
 				/>
-			</Link>
-			<Link
+			</a>
+			<a
 				href={
 					'https://docs.google.com/forms/d/e/1FAIpQLSd15hIEisXjraXPoit3imk3VdLwwVjkcOxLBPl9sbbMLVfoMg/viewform?usp=sf_link'
 				}>
@@ -40,8 +40,8 @@ export default function Profiles() {
 					height={324 * profileScale}
 					alt='Snehith'
 				/>
-			</Link>
-			<Link
+			</a>
+			<a
 				href={
 					'https://docs.google.com/forms/d/e/1FAIpQLSdNFdr4Q1G0KfklaKasoxoCf0iwQDf47CyQLPJcrFJD36jlWQ/viewform?usp=sf_link'
 				}>
@@ -52,8 +52,8 @@ export default function Profiles() {
 					height={324 * profileScale}
 					alt='Harshit'
 				/>
-			</Link>
-			<Link
+			</a>
+			<a
 				href={
 					'https://docs.google.com/forms/d/e/1FAIpQLSfaeilKv3qB0k_5kI18JG43Ub2KIm5Fg-SY9dlnTqFMW9O7yA/viewform?usp=sf_link'
 				}>
@@ -64,8 +64,8 @@ export default function Profiles() {
 					height={324 * profileScale}
 					alt='Himanshu'
 				/>
-			</Link>
-			<Link
+			</a>
+			<a
 				href={
 					'https://docs.google.com/forms/d/e/1FAIpQLSfoQhSYDiu8CRTqY6l3T5MwUiJNMwis2C4LtGnmI4K66lrD1A/viewform?usp=sf_link'
 				}>
@@ -76,8 +76,8 @@ export default function Profiles() {
 					height={324 * profileScale}
 					alt='Aishwarya'
 				/>
-			</Link>
-			<Link
+			</a>
+			<a
 				href={
 					'https://docs.google.com/forms/d/e/1FAIpQLSel2NU8BvpwtjPUoDwdwlPxEzulnPfpDExgSpSV7-lxUee2zA/viewform?usp=sf_link'
 				}>
@@ -88,8 +88,8 @@ export default function Profiles() {
 					height={324 * profileScale}
 					alt='Mohit'
 				/>
-			</Link>
-			<Link
+			</a>
+			<a
 				href={
 					'https://docs.google.com/forms/d/e/1FAIpQLSelnjqZIdNA7iJBAf6Jneu-owy8prvtXtsQDue1mOcQ6iATxA/viewform?usp=sf_link'
 				}>
@@ -100,8 +100,8 @@ export default function Profiles() {
 					height={324 * profileScale}
 					alt='Manit'
 				/>
-			</Link>
-			<Link
+			</a>
+			<a
 				href={
 					'https://docs.google.com/forms/d/e/1FAIpQLSfTSuUGc7CARe1PuOjuuZtPOB7NdBsgwEx3INpAyP7J4MMjug/viewform?usp=sf_link'
 				}>
@@ -112,8 +112,8 @@ export default function Profiles() {
 					height={324 * profileScale}
 					alt='Mafaaz'
 				/>
-			</Link>
-			<Link
+			</a>
+			<a
 				href={
 					'https://docs.google.com/forms/d/e/1FAIpQLScwMMB3Z0TXteyKzBpmrEpFXg8A0T50M19Bk-Qrd95C9Ow38w/viewform?usp=sf_link'
 				}>
@@ -124,8 +124,8 @@ export default function Profiles() {
 					height={324 * profileScale}
 					alt='Firos'
 				/>
-			</Link>
-			<Link
+			</a>
+			<a
 				href={
 					'https://docs.google.com/forms/d/e/1FAIpQLSfk-59N1FGZEQBCbOKGOJwt1uyhuU12Rcwz3a3RIB-I4WphSg/viewform?usp=sf_link'
 				}>
@@ -136,8 +136,8 @@ export default function Profiles() {
 					height={324 * profileScale}
 					alt='Bharatesh'
 				/>
-			</Link>
-			<Link
+			</a>
+			<a
 				href={
 					'https://docs.google.com/forms/d/e/1FAIpQLSeQe26CH49xIUFofv6rO2CebJtkgnXK5gdmfoLHoFa-gOgqoA/viewform?usp=sf_link'
 				}>
@@ -148,8 +148,8 @@ export default function Profiles() {
 					height={324 * profileScale}
 					alt='Vishnu'
 				/>
-			</Link>
-			<Link
+			</a>
+			<a
 				href={
 					'https://docs.google.com/forms/d/e/1FAIpQLSf9hiUMZpTOnOyWorleFR3-XonXzz03ZsGpmz6Au7B75yy9fA/viewform?usp=sf_link'
 				}>
@@ -160,8 +160,8 @@ export default function Profiles() {
 					height={324 * profileScale}
 					alt='Ryan'
 				/>
-			</Link>
-			<Link
+			</a>
+			<a
 				href={
 					'https://docs.google.com/forms/d/e/1FAIpQLScDCC6MKb7q8rP5VVE-li5Kr8Sw9wrBqJTkxjWtELeCPSvlXg/viewform?usp=sf_link'
 				}>
@@ -172,8 +172,8 @@ export default function Profiles() {
 					height={324 * profileScale}
 					alt='Srinidhi'
 				/>
-			</Link>
-			<Link
+			</a>
+			<a
 				href={
 					'https://docs.google.com/forms/d/e/1FAIpQLSf77dJhRqnmI9uRECXoP1enrxO_7aiCjKe5H2teeW_kJMc--A/viewform?usp=sf_link'
 				}>
@@ -184,8 +184,8 @@ export default function Profiles() {
 					height={324 * profileScale}
 					alt='Hannah'
 				/>
-			</Link>
-			<Link
+			</a>
+			<a
 				href={
 					'https://docs.google.com/forms/d/e/1FAIpQLSfW_AlqgsyAwPLtJji4Z9wKacz9vbG2t83YF_5IYgqe8M9eew/viewform?usp=sf_link'
 				}>
@@ -196,8 +196,8 @@ export default function Profiles() {
 					height={324 * profileScale}
 					alt='Harsh'
 				/>
-			</Link>
-			<Link
+			</a>
+			<a
 				href={
 					'https://docs.google.com/forms/d/e/1FAIpQLScbGyATQRgtYp41HGSQevAFycoJhp3sClabgfwkgbWgAaucmQ/viewform?usp=sf_link'
 				}>
@@ -208,7 +208,7 @@ export default function Profiles() {
 					height={324 * profileScale}
 					alt='Srinivas'
 				/>
-			</Link>
+			</a>
 		</>
 	);
 }
