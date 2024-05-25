@@ -13,6 +13,10 @@ export default function YB4() {
 			<Link href={'/'}>
 				<Image className='mt-8' src={'/YearBook 2.png'} width={986 * 0.5} height={664 * 0.5} alt='YearBook' />
 			</Link>
+			<span className='text-md'>
+				Note: Fill forms for your friends&#39; profile page. You don&#39;t need to fill all forms! Fill for whomever you
+				wish to.
+			</span>
 			<button className='hover:scale-110' onClick={() => setColumns((_) => (_ === 1 ? 2 : _ === 2 ? 4 : 1))}>
 				{columns === 1 && <SquareSplitVertical size={32} />}
 				{columns === 2 && <GridFour size={32} />}
